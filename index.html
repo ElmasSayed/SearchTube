@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <title>Search Tube  </title>
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    </head>
+
+    <body>
+        <div id="container">
+            <header>
+                <h1> Search <span>Tube</span></h1>
+                <p>Search all videos from a YouTube channel</p>                
+            </header>
+            <section>
+                <form id="search-form" name="search-form" onsubmit="return search()">
+                    <div class="fieldcontainer">
+                       <input type="search" id="query" class="search-field" placeholder="Search Youtube...">
+                       <input type="submit" name="search-btn" id="search-btn" value="">
+                    </div>
+                </form>
+
+                <ul id="results"></ul>
+                <div id="buttton"></div>
+            </section>
+    </body>
+
+    <footer>
+        <p>Copyright 2018</p>
+    </footer>
+
+</html>                                               
